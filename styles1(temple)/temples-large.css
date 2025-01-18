@@ -1,0 +1,18 @@
+/* Responsive Styles for Larger Screens */
+#hamburger {
+    display: none; /* Hide hamburger menu on larger screens */
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+main {
+    max-width: 1200px;
+}
+
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+}
