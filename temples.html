@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Album</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Link to CSS files -->
+    <link rel="stylesheet" href="temples.css">
+    <link rel="stylesheet" href="temples-large.css" media="screen and (min-width: 768px)">
+    <!-- JavaScript file with defer -->
+    <script src="temples.js" defer></script>
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Temple Album</h1>
         <nav>
-            <ul>
+            <ul class="nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Old</a></li>
                 <li><a href="#">New</a></li>
@@ -19,20 +23,51 @@
             </ul>
         </nav>
     </header>
-    <main class="gallery">
+    <main>
         <h2>Home</h2>
-        <div class="gallery-grid">
-            <!-- Repeat this block for each image -->
-            <div class="gallery-item">
-                <img src="san-diego-temple.jpg" alt="San Diego California Temple">
-                <p>San Diego California</p>
-            </div>
+        <div class="gallery">
+            <!-- 9 placeholder temple images -->
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 1</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 2</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 3</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 4</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 5</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 6</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 7</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 8</figcaption>
+            </figure>
+            <figure>
+                <img src="placeholder-temple.jpg" alt="Placeholder Temple">
+                <figcaption>Placeholder Temple 9</figcaption>
+            </figure>
         </div>
     </main>
     <footer>
         <p id="copyright"></p>
         <p id="last-modified"></p>
     </footer>
-    <script src="script.js" defer></script>
 </body>
 </html>
